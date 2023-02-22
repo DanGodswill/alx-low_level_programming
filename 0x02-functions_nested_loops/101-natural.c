@@ -8,13 +8,16 @@
 */
 int main(void)
 {
-  int a, b;
+  int i, z;
 
-  for (a = 1; a < 1024; a++)
+  while (i < 1024)
   {
-    if ((a % 3) == 0 || (a % 5) == 0)
-      b += a;
+    if ((i % 3 == 0) || (i % 5 == 0))
+{
+z += i;
   }
-  printf("%d\n", b);
+i++;
+}
+  printf("%d\n", n);
   return (0);
 }
