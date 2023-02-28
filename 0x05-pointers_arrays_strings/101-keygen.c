@@ -4,15 +4,16 @@
 
 /**
  * main - generates random passwords for 101-crackme
- * Return: zero
- */
-int main(void)
+ * Return: zero
+ */
+
+int main(void)
 {
-        int sum;
+	int sum;
         char c;
  
         srand(time(NULL));
-        while (sum <= 2645)
+while (sum <= 2645)
         {
                 c = rand() % 128;
                 sum += c;
