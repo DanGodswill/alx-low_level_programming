@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
-* *argstostr - concatenates all the arguments of the program
-* @ac: number of arguments
-* @av: array of arguments
-*
-* Return: Pointer to the new string (Success), NULL (Error)
+* argstostr - main entry
+* @ac: int input
+* @av: double pointer array
+* Return: 0
 */
 char *argstostr(int ac, char **av)
 {
